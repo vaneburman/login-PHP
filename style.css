@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+img{
+    width: 15vw;
+}
+.form-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.error-text{
+    font-size: 0.8rem;
+}
+
+
+
+.form{
+    width: 30rem;
+    margin: 2rem auto 2rem auto;
+    padding: 2rem;
+    border: 1px solid rgb(0,0,0);
+}
+
+.form:hover{
+    box-shadow: 3px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box-welcome{
+    min-width: fit-content;
+    max-width: 30rem;
+    margin: 25vh auto 2rem auto;
+    padding: 2rem;
+    border: 1px solid rgb(0,0,0);
+    background-color: lightgray;
+}
